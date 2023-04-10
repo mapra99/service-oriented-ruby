@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://newsapi.org/v2/top-headlines?country=us&page=1&pageSize=10
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      X-Api-Key:
+      - "<NEWS_API_KEY>"
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/5.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Apr 2023 04:23:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '8519'
+      Connection:
+      - close
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - "-1"
+      X-Cached-Result:
+      - 'false'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OnOSbufflSRQ5GV%2FexSd8UXeni4tdbFXRLEGFzii2qvw%2FqlTR6OZU7IwPrAW1LpDgZ1jJfSvH9M9HU7kExmzA50IZnzUqSt5Zl0hnCNohcAQlR%2FmWAao9iGd0MRS"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b58369d9b84b3cd-MIA
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","totalResults":36,"articles":[{"source":{"id":"the-washington-post","name":"The
+        Washington Post"},"author":"Annie Gowen, Hadley Green","title":"Tenn. GOP
+        deepens racial tension after expelling Black lawmakers - The Washington Post","description":"In
+        a state with a legacy of brutal battles over race and power, Tennessee House
+        Republicans voted to oust two young Black Democrats who led a protest in the
+        chamber.","url":"https://www.washingtonpost.com/nation/2023/04/08/tennessee-three-nashville-shooting-expelled/","urlToImage":"https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QFV5A735JBHSJLE5TPCWGZYUBM.jpg&w=1440","publishedAt":"2023-04-09T02:21:29Z","content":"Comment
+        on this story\r\nComment\r\nTennessee House Republicans said it was a just
+        a matter of decorum, the need to behave properly in the historic chamber of
+        the state Capitol.\r\nTwo newly elected Black … [+12641 chars]"},{"source":{"id":"abc-news","name":"ABC
+        News"},"author":"Mary Kekatos","title":"CDC warns doctors to be on the lookout
+        for rare Marburg virus - ABC News","description":"Cases have been detected
+        in Tanzania and Equatorial Guinea.","url":"https://abcnews.go.com/Health/cdc-warns-doctors-lookout-rare-ebola-virus/story?id=98426978","urlToImage":"https://s.abcnews.com/images/Health/Marburg-rf-gty-ml-230407_1680875618684_hpMain_16x9_992.jpg","publishedAt":"2023-04-09T01:29:38Z","content":"The
+        Centers for Disease Control and Prevention issued a warning Thursday for clinicians
+        and public health departments in the United States to be on the lookout for
+        cases of a rare Ebola-like virus.\r\n… [+2638 chars]"},{"source":{"id":"cbs-news","name":"CBS
+        News"},"author":null,"title":"Ben Ferencz, last living Nuremberg prosecutor,
+        dies at age 103 - CBS News","description":"Ferencz secured convictions for
+        22 former Nazi commanders who were charged with murdering over 1 million Jews,
+        Gypsies and others.","url":"https://www.cbsnews.com/news/ben-ferencz-last-living-nuremberg-prosecutor-dies-age-103/","urlToImage":"https://assets3.cbsnewsstatic.com/hub/i/r/2023/04/08/5e73977e-40a1-4020-943b-b2a9d3995607/thumbnail/1200x630/bb4548892e3017c4dc18d1feb9e88926/gettyimages-994218536.jpg","publishedAt":"2023-04-09T01:19:00Z","content":"Ben
+        Ferencz, the last living prosecutor from the Nuremberg trials, who prosecuted
+        Nazis for genocidal war crimes — and was among the first outside witnesses
+        to document the atrocities of Nazi labor a… [+4615 chars]"},{"source":{"id":null,"name":"Yahoo
+        Entertainment"},"author":"Yahoo Sports Staff","title":"UFC 287 live tracker:
+        Updates, highlights, analysis for full card including Alex Pereira vs. Israel
+        Adesanya - Yahoo Sports","description":"On Saturday, in the main event of
+        UFC 287 in Miami, former middleweight champion Israel Adesanya will give it
+        another go against his nemesis Alex Pereira.","url":"https://sports.yahoo.com/ufc-287-live-tracker-updates-highlights-analysis-for-full-card-including-alex-pereira-vs-israel-adesanya-220101814.html","urlToImage":"https://s.yimg.com/ny/api/res/1.2/QP5sIGiuvqQ7KXaCP6vP9g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NTc-/https://s.yimg.com/os/creatr-uploaded-images/2023-03/b6b9be20-d64f-11ed-bf9d-93652613895d","publishedAt":"2023-04-09T00:41:00Z","content":"On
+        Saturday, in the main event of UFC 287 in Miami, former middleweight champion
+        Israel Adesanya will give it another go against his nemesis Alex Pereira.\r\nThe
+        problem for Adesanya is that he''s 0-3 a… [+3433 chars]"},{"source":{"id":null,"name":"WPVI-TV"},"author":null,"title":"3
+        shot at Christiana Mall in Christiana, New Castle County, Delaware; Delaware
+        State Police search for gunman - WPVI-TV","description":"Mall Road is closed
+        and officials ask that residents avoid the area.","url":"https://6abc.com/delaware-state-police-mall-christiana-shooting/13104071/","urlToImage":"https://cdn.abcotvs.com/dip/images/13104081_christiana-mall-shooting.PNG?w=1600","publishedAt":"2023-04-09T00:20:09Z","content":"CHRISTIANA,
+        Delaware (WPVI) -- Delaware State Police are on the scene of a shooting at
+        Christiana Mall on Saturday.\r\nOfficials say at least three people were shot
+        in the food court.\r\nThe mall is curr… [+301 chars]"},{"source":{"id":"the-washington-post","name":"The
+        Washington Post"},"author":"Tyler Pager, Hannah Knowles","title":"Democrats
+        blast Texas abortion pill ruling as Republicans are mostly quiet - The Washington
+        Post","description":"Anger over abortion hurt the GOP in last year''s midterms,
+        and Democrats are already making the issue central to their campaigns in the
+        2024 election.","url":"https://www.washingtonpost.com/politics/2023/04/08/texas-abortion-pill-ruling-political-reaction/","urlToImage":"https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DR5KNB7GK7MOJLC575U4SVLSS4_size-normalized.JPG&w=1440","publishedAt":"2023-04-08T23:47:37Z","content":"Comment
+        on this story\r\nComment\r\nDemocrats warned Saturday of the repercussions
+        of a federal judges decision to suspend the Food and Drug Administrations
+        approval of a key abortion medication, as they… [+8586 chars]"},{"source":{"id":null,"name":"Variety"},"author":"Charna
+        Flam","title":"Jeremy Renner Uses Motorized Scooter to Join Family at Six
+        Flags as Snow Plow Recovery Continues - Variety","description":"Following
+        his traumatic snowplow accident, actor Jeremy Renner is continuing his recovery.
+        In January, Renner was hospitalized for blunt chest trauma and orthopedic
+        injuries after a 14,330-pound sn…","url":"https://variety.com/2023/tv/news/jeremy-renner-recovery-six-flags-family-scooter-1235577553/","urlToImage":"https://variety.com/wp-content/uploads/2023/01/jeremy-renner.jpg?w=1000&h=562&crop=1","publishedAt":"2023-04-08T23:26:00Z","content":"Following
+        his traumatic snowplow accident, actor Jeremy Renner is continuing his recovery.
+        In January, Renner was hospitalized for blunt chest trauma and orthopedic
+        injuries after a 14,330-pound snow… [+1353 chars]"},{"source":{"id":"the-washington-post","name":"The
+        Washington Post"},"author":"Steven Goff","title":"Mallory Swanson suffers
+        serious knee injury in USWNT friendly - The Washington Post","description":"Swanson
+        was hurt in the 40th minute on a challenge by Ireland’s Aoife Mannion near
+        midfield.","url":"https://www.washingtonpost.com/sports/2023/04/08/mallory-swanson-injury-uswnt-ireland/","urlToImage":"https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M2YZOZSJW5DVDLWVIWGTYLY7QU.jpg&w=1440","publishedAt":"2023-04-08T23:24:00Z","content":"Comment
+        on this story\r\nComment\r\nAUSTIN Mallory Swanson, a dynamic attacker for
+        the U.S. womens national soccer team, appeared to suffer a serious knee injury
+        Saturday during a 2-0 victory over Irelan… [+5889 chars]"},{"source":{"id":null,"name":"Entertainment
+        Tonight"},"author":"Miguel A. Melendez","title":"Taylor Swift and Joe Alwyn
+        Break Up After Six Years of Dating (Exclusive) - Entertainment Tonight","description":"The
+        songstress and actor had been dating since 2016.","url":"https://www.etonline.com/taylor-swift-and-joe-alwyn-break-up-after-six-years-of-dating-exclusive-202408","urlToImage":"https://www.etonline.com/sites/default/files/styles/max_1280x720/public/images/2023-04/image%20%283%29.png?h=739905c9&itok=J3Y39V0s","publishedAt":"2023-04-08T23:00:17Z","content":"Taylor
+        Swift and Joe Alwyn have called it quits. ET has exclusively learned that
+        the \"Lavender Haze\" singer and the British actor broke up a few weeks ago.\r\nET
+        has also learned that the split was ami… [+3329 chars]"},{"source":{"id":"fox-news","name":"Fox
+        News"},"author":"Adam Sabes","title":"China called out by World Health Organization
+        over COVID origin data - Fox News","description":"Chinese health officials
+        are defending their efforts to find the source of the coronavirus pandemic
+        after a World Health Organization leader said it should have shared data much
+        sooner.","url":"https://www.foxnews.com/world/china-called-world-health-organization-covid-origin-data","urlToImage":"https://static.foxnews.com/foxnews.com/content/uploads/2023/04/Untitled-design-654.png","publishedAt":"2023-04-08T22:52:00Z","content":"Chinese
+        health officials are defending their search to find the source of the coronavirus
+        and criticized the leader of the World Health Organization after saying that
+        China should have shared genetic… [+3119 chars]"}]}'
+  recorded_at: Mon, 10 Apr 2023 04:23:14 GMT
+recorded_with: VCR 6.1.0
