@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.sampleapis.com/simpsons/characters/6660
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/5.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Sun, 09 Apr 2023 15:09:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '81'
+      Connection:
+      - close
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Limit:
+      - '500'
+      X-Ratelimit-Remaining:
+      - '480'
+      X-Ratelimit-Reset:
+      - '1681052961'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"51-dxOg/lGBtO24ydywAN91NovEVpM"
+    body:
+      encoding: UTF-8
+      string: '{"id":6660,"name":"Homer Simpson","normalized_name":"homer simpson","gender":"m"}'
+  recorded_at: Sun, 09 Apr 2023 15:09:06 GMT
+recorded_with: VCR 6.1.0

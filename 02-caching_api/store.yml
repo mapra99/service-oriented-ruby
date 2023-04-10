@@ -1,0 +1,6 @@
+---
+'6660':
+- '{"id":6660,"name":"Homer Simpson","normalized_name":"homer simpson","gender":"m"}'
+- !ruby/object:Rational
+  denominator: 500000
+  numerator: 840526628160259
